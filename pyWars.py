@@ -7,6 +7,8 @@ python3
 import local_pyWars as pyWars
 game = pyWars.exercise()
 
+# mkdir -p /home/teebs/Public/packets /home/teebs/Public/log /home/teebs/Public/registry
+# sudo cp -R /mnt/c/Users/Teebs/Desktop/local_pyWars/* /home/teebs
 # game.question(1)
 # game.data(1)
 # game.answer(1, answer1(game.data(1)))
@@ -198,7 +200,9 @@ def answer30(d):
     return result
 
 def answer31(d):
+    result = 0.0
     
+    return result
 
 
 

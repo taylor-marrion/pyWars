@@ -1,14 +1,18 @@
-#
-#
-#
-#
+# pyWars.py
+# Author: Taylor Marrion
+# Date: 4/19/2020
+"""This file contains functions used to setup and complete pyWars challenges."""
 
-python3
-import local_pyWars as pyWars
-game = pyWars.exercise()
-
+## setup
 # mkdir -p /home/teebs/Public/packets /home/teebs/Public/log /home/teebs/Public/registry
 # sudo cp -R /mnt/c/Users/Teebs/Desktop/local_pyWars/* /home/teebs
+
+## initialize python environment
+# python3
+# import local_pyWars as pyWars
+# game = pyWars.exercise()
+
+## sample commands
 # game.question(1)
 # game.data(1)
 # game.answer(1, answer1(game.data(1)))
